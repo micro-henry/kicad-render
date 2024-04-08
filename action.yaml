@@ -17,7 +17,7 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/linalinn/kicad-render:nightly'
+  image: 'docker://ghcr.io/micro-henry/kicad-render:nightly'
   args:
     - bash
     - -c 
