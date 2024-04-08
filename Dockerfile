@@ -7,7 +7,7 @@ ARG VERSION=no-version
 ENV VERSION=$VERSION
 
 RUN apt-get update -y && \
-    apt-get install -y software-properties-common wget && \
+    apt-get install -y software-properties-common wget unzip && \
     add-apt-repository -y ppa:kicad/kicad-dev-nightly && \
     apt-get install kicad-nightly ffmpeg -y && \ 
     rm -rf /var/lib/apt/lists/* && \
