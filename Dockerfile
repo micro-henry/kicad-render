@@ -14,6 +14,9 @@ RUN apt-get update -y && \
     wget -O Inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip && \
     unzip -d inter/ Inter.zip && \
     mv inter /usr/share/fonts/ && \
+    wget -O FantasqueSansMono.zip https://github.com/belluzj/fantasque-sans/releases/download/v1.8.0/FantasqueSansMono-Normal.zip && \
+    unzip -d fantasquesansmono/ FantasqueSansMono.zip && \
+    mv fantasquesansmono /usr/share/fonts/ && \
     wget -O Monaspace.zip https://github.com/githubnext/monaspace/releases/download/v1.000/monaspace-v1.000.zip && \
     unzip -d monaspace/ Monaspace.zip && \
     mv monaspace /usr/share/fonts/ && \
